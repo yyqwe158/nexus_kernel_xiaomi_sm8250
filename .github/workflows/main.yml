@@ -15,8 +15,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Nexus Kernel Lmi
-        run: bash build.sh null lmi null
+      - name: Nexus Kernel Umi
+        run: bash build.sh null umi null
         env:
            token: ${{ secrets.TOKEN }}
            chat_id: ${{ secrets.CHAT_ID }}
